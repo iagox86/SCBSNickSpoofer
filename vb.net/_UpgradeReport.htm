@@ -1,0 +1,161 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="_UpgradeReport_Files\UpgradeReport.css">
+		<title>NickSpoofer.vbp Upgrade Report</title>
+		
+		<script language="javascript">
+			function outliner () {
+				oMe = window.event.srcElement
+				//get child element
+				var child=document.all[event.srcElement.getAttribute("child",false)];
+				//if child element exists, expand or collapse it.
+				if (null !=child)
+					child.className = child.className == "collapsed" ? "expanded" : "collapsed";
+			}
+		
+			function changepic() {
+				uMe=window.event.srcElement;
+				var check = uMe.src.toLowerCase();
+				if (check.lastIndexOf("upgradereport_plus.gif") != -1)
+				{
+					uMe.src="_UpgradeReport_Files/UpgradeReport_Minus.gif"
+				}
+				else
+				{
+					uMe.src="_UpgradeReport_Files/UpgradeReport_Plus.gif"
+				}
+			}
+		</script>
+		
+	</head>
+	<body topmargin="0" leftmargin="0"  onclick="outliner();">
+		<h1>Upgrade Report for NickSpoofer.vbp</h1>
+		
+		<table width="100%" cellpadding=2 cellspacing=0>
+		<tr valign=top>
+			<td width =350>
+		
+			<p><b>Project:  </b>NickSpoofer.vbp<br>
+			<b>Time of Upgrade:  </b>4/12/2001 1:47 PM<br></p>
+			</td><td width="50">&nbsp;</td>
+			<td align="right">
+			<table><tr><td><p><span class=note>
+				<b>Upgrade Settings:</b><br>
+				<b>ADOPlus:</b> FALSE<br>
+				<b>GenerateInterfacesForClasses:</b> FALSE<br>
+				<b>LogFile:</b> NickSpoofer.log<br>
+				<b>MigrateProjectTo:</b> WinExe<br>
+				<b>NativeArrays:</b> FALSE<br>
+				<b>OutputDir:</b> C:\DAN\ns105\VB.NET<br>
+				<b>ProjectName:</b> NickSpoofer<br>
+				<b>ProjectPath:</b> C:\DAN\ns105\NickSpoofer.vbp<br>
+				<b>TimeMark:</b> FALSE
+			</p></span></td></tr>
+			</table>
+			</td></tr>
+			</table>
+		<p>&nbsp;</p>
+		
+		<h2>List of Project Files</h2>
+		<table cellpadding="2" cellspacing="0" width="100%" border="1" frame="void" class="infotable"></TR>
+			<tr>
+				<td nowrap class="header">New Filename</td>
+				<td nowrap class="header">Original Filename</td>
+				<td nowrap class="header">File Type</td>
+				<td nowrap class="header">Status</td>
+				<td nowrap class="header">Errors</td>
+				<td nowrap class="header">Warnings</td>
+				<td nowrap class="header">Total Issues</td>
+			</tr>
+		<tr class=row>
+			<td class="content"><IMG class=expandable height=11 src="_UpgradeReport_Files/UpgradeReport_Minus.gif"width=9 child="issue0"  onclick="changepic()">&nbsp;(Global Issues)</td>
+			<td class="content"></td>
+			<td class="content"></td>
+			<td class="content">
+		</td>	<td class="content">1</td>
+			<td class="content">0</td>
+			<td class="content">1</td>
+		</tr>
+			<tr id=issue0 bgcolor="white"><td colspan="7">
+				<table width="98%" border=1 frame=void class="issuetable">
+				<tr><td colspan="7" class=issuetitle>Global update issues:</td></tr><tr><td width="10" class="issuehdr">#</td><td class="issuehdr">Severity</td><td class="issuehdr">Location</td><td class="issuehdr">Object Type</td><td class="issuehdr">Object Name</td><td class="issuehdr">Description</td></tr>
+					<tr><td width="10" class="issuecontent">1</td><td class="issuecontent">Compile Error</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">General error accessing file "C:\DAN\ns105\..\Officeize.bas"</td></tr>
+				</table>
+			</td></tr>
+		<tr class=row>
+			<td class="content"><IMG class=expandable height=11 src="_UpgradeReport_Files/UpgradeReport_Plus.gif"width=9 child="issue1"  onclick="changepic()">&nbsp;frmMain.vb</td>
+			<td class="content">frmMain.frm</td>
+			<td class="content">Form</td>
+			<td class="content">
+		Migrated with Issues</td>	<td class="content">20</td>
+			<td class="content">2</td>
+			<td class="content">22</td>
+		</tr>
+			<tr class=collapsed id=issue1 bgcolor="white"><td colspan="7">
+				<table width="98%" border=1 frame=void class="issuetable">
+				<tr><td colspan="7" class=issuetitle>Upgrade Issues for frmMain.frm:</td></tr><tr><td width="10" class="issuehdr">#</td><td class="issuehdr">Severity</td><td class="issuehdr">Location</td><td class="issuehdr">Object Type</td><td class="issuehdr">Object Name</td><td class="issuehdr">Description</td></tr>
+					<tr><td width="10" class="issuecontent">1</td><td class="issuecontent">Compile Error</td><td class="issuecontent">(Layout)</td><td class="issuecontent">VB.Form</td><td class="issuecontent">frmMain</td><td class="issuecontent">Property HelpContextID not supported in Windows Forms</td></tr>
+					<tr><td width="10" class="issuecontent">2</td><td class="issuecontent">Compile Error</td><td class="issuecontent">(Layout)</td><td class="issuecontent">VB.Frame</td><td class="issuecontent">frmColors</td><td class="issuecontent">Property Frame BorderStyle not supported in Windows Forms</td></tr>
+					<tr><td width="10" class="issuecontent">3</td><td class="issuecontent">Compile Error</td><td class="issuecontent">(Layout)</td><td class="issuecontent">VB.Frame</td><td class="issuecontent">frmModify</td><td class="issuecontent">Property Frame BorderStyle not supported in Windows Forms</td></tr>
+					<tr><td width="10" class="issuecontent">4</td><td class="issuecontent">Compile Error</td><td class="issuecontent">(Layout)</td><td class="issuecontent">VB.Frame</td><td class="issuecontent">frmOptions</td><td class="issuecontent">Property Frame BorderStyle not supported in Windows Forms</td></tr>
+					<tr><td width="10" class="issuecontent">5</td><td class="issuecontent">Compile Error</td><td class="issuecontent">(Layout)</td><td class="issuecontent">VB.Frame</td><td class="issuecontent">frmStatus</td><td class="issuecontent">Property Frame BorderStyle not supported in Windows Forms</td></tr>
+					<tr><td width="10" class="issuecontent">6</td><td class="issuecontent">Compile Error</td><td class="issuecontent">cmbColors_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">Found invalid type [&string] for function [&id "Left"]</td></tr>
+					<tr><td width="10" class="issuecontent">7</td><td class="issuecontent">Compile Error</td><td class="issuecontent">Form_Load</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">Found invalid type [&variant] for function [&id "AddOfficeBorder"]</td></tr>
+					<tr><td width="10" class="issuecontent">8</td><td class="issuecontent">Compile Error</td><td class="issuecontent">Form_Load</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">Found invalid type [&variant] for function [&id "AddOfficeBorder"]</td></tr>
+					<tr><td width="10" class="issuecontent">9</td><td class="issuecontent">Compile Error</td><td class="issuecontent">Form_Load</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">Found invalid type [&variant] for function [&id "AddOfficeBorder"]</td></tr>
+					<tr><td width="10" class="issuecontent">10</td><td class="issuecontent">Compile Error</td><td class="issuecontent">Form_Load</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">Found invalid type [&variant] for function [&id "AddOfficeBorder"]</td></tr>
+					<tr><td width="10" class="issuecontent">11</td><td class="issuecontent">Compile Error</td><td class="issuecontent">Form_Load</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">Found invalid type [&variant] for function [&id "AddOfficeBorder"]</td></tr>
+					<tr><td width="10" class="issuecontent">12</td><td class="issuecontent">Compile Error</td><td class="issuecontent">Form_Load</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">Found invalid type [&variant] for function [&id "AddOfficeBorder"]</td></tr>
+					<tr><td width="10" class="issuecontent">13</td><td class="issuecontent">Compile Error</td><td class="issuecontent">Form_Load</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">Found invalid type [&variant] for function [&id "AddOfficeBorder"]</td></tr>
+					<tr><td width="10" class="issuecontent">14</td><td class="issuecontent">Compile Error</td><td class="issuecontent">Form_Load</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">Types do not match arguments in function [&id "AddOfficeBorder"]</td></tr>
+					<tr><td width="10" class="issuecontent">15</td><td class="issuecontent">Compile Error</td><td class="issuecontent">Form_Load</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">Types do not match arguments in function [&id "AddOfficeBorder"]</td></tr>
+					<tr><td width="10" class="issuecontent">16</td><td class="issuecontent">Compile Error</td><td class="issuecontent">Form_Load</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">Types do not match arguments in function [&id "AddOfficeBorder"]</td></tr>
+					<tr><td width="10" class="issuecontent">17</td><td class="issuecontent">Compile Error</td><td class="issuecontent">Form_Load</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">Types do not match arguments in function [&id "AddOfficeBorder"]</td></tr>
+					<tr><td width="10" class="issuecontent">18</td><td class="issuecontent">Compile Error</td><td class="issuecontent">Form_Load</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">Types do not match arguments in function [&id "AddOfficeBorder"]</td></tr>
+					<tr><td width="10" class="issuecontent">19</td><td class="issuecontent">Compile Error</td><td class="issuecontent">Form_Load</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">Types do not match arguments in function [&id "AddOfficeBorder"]</td></tr>
+					<tr><td width="10" class="issuecontent">20</td><td class="issuecontent">Compile Error</td><td class="issuecontent">Form_Load</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">Types do not match arguments in function [&id "AddOfficeBorder"]</td></tr>
+					<tr><td width="10" class="issuecontent">21</td><td class="issuecontent">Runtime Warning</td><td class="issuecontent">chkDisableChecking_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">Setting Interval to 0 will not disable the timer, instead the value will default to 1.  Use Timer.Enable to disable/enable a timer</td></tr>
+					<tr><td width="10" class="issuecontent">22</td><td class="issuecontent">Runtime Warning</td><td class="issuecontent">GetAppSettings</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">A boolean is being converted to a numeric type. The numeric type of True has changed from -1 in VB6 to 1 in VB7.</td></tr>
+				</table>
+			</td></tr>
+		<tr class=row>
+			<td class="content"><IMG class=expandable height=11 src="_UpgradeReport_Files/UpgradeReport_Plus.gif"width=9 child="issue2"  onclick="changepic()">&nbsp;modNickSpoof.vb</td>
+			<td class="content">modNickSpoof.bas</td>
+			<td class="content">Module</td>
+			<td class="content">
+		Migrated with Issues</td>	<td class="content">0</td>
+			<td class="content">2</td>
+			<td class="content">2</td>
+		</tr>
+			<tr class=collapsed id=issue2 bgcolor="white"><td colspan="7">
+				<table width="98%" border=1 frame=void class="issuetable">
+				<tr><td colspan="7" class=issuetitle>Upgrade Issues for modNickSpoof.bas:</td></tr><tr><td width="10" class="issuehdr">#</td><td class="issuehdr">Severity</td><td class="issuehdr">Location</td><td class="issuehdr">Object Type</td><td class="issuehdr">Object Name</td><td class="issuehdr">Description</td></tr>
+					<tr><td width="10" class="issuecontent">1</td><td class="issuecontent">Runtime Warning</td><td class="issuecontent">ChangeNick</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">A boolean is being converted to a numeric type. The numeric type of True has changed from -1 in VB6 to 1 in VB7.</td></tr>
+					<tr><td width="10" class="issuecontent">2</td><td class="issuecontent">Runtime Warning</td><td class="issuecontent">ReadNick</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">A boolean is being converted to a numeric type. The numeric type of True has changed from -1 in VB6 to 1 in VB7.</td></tr>
+				</table>
+			</td></tr>
+		<tr class=row>
+			<td class="content"><IMG class=expandable height=11 src="_UpgradeReport_Files/UpgradeReport_Plus.gif"width=9 child="issue3"  onclick="changepic()">&nbsp;Officeize.vb</td>
+			<td class="content">Officeize.bas</td>
+			<td class="content">Module</td>
+			<td class="content">
+		Migrated</td>	<td class="content">0</td>
+			<td class="content">0</td>
+			<td class="content">0</td>
+		</tr>
+			<tr class=collapsed id=issue3 bgcolor="white"><td colspan="7">
+				<table width="98%" border=1 frame=void class="issuetable">
+				<tr><td colspan="7" class=issuetitle>Upgrade Issues for Officeize.bas:</td></tr><tr><td class=issuenone>None</td></tr>
+				</table>
+			</td></tr>
+		<tr class=foot>
+			<td>3 File(s) </td>
+			<td>&nbsp;</td>
+			<td>Form: 1<br>Module: 2</td>
+			<td>&nbsp;</td>
+			<td>21</td>
+			<td>4</td>
+			<td>25</td>
+		</table>
+	</body>
+</html>

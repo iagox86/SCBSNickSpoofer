@@ -1,0 +1,4 @@
+ns 1.05a maximum memory usage:
+2,756 kb
+ns 1.04 maximum memory usage:
+2,484 kb

@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UpgradeLog>
+    <Settings>
+        <Setting
+            Name = "LogFile"
+            Value = "NickSpoofer.log"
+        />
+        <Setting
+            Name = "GenerateInterfacesForClasses"
+            Value = "0"
+        />
+        <Setting
+            Name = "ProjectName"
+            Value = "NickSpoofer"
+        />
+        <Setting
+            Name = "OutputName"
+            Value = "NickSpoofer.vbproj"
+        />
+        <Setting
+            Name = "OutputDir"
+            Value = "C:\DAN\ns105\NickSpoofer.NET"
+        />
+        <Setting
+            Name = "ProjectPath"
+            Value = "C:\DAN\ns105\NickSpoofer.vbp"
+        />
+        <Setting
+            Name = "MigrateProjectTo"
+            Value = "WinExe"
+        />
+    </Settings>
+    <File
+        OldPath = "C:\DAN\ns105\frmMain.frm"
+        NewPath = "C:\DAN\ns105\NickSpoofer.NET\frmMain.vb"
+        FileType = "Form"
+        Upgraded = "True"
+    >
+        <Section Name = "(Layout)" >
+            <Issue
+                Type = "Design"
+                Number = "2064"
+                ObjectName = "frmMain"
+                ObjectType = "Form"
+                PME = "HelpContextID"
+            >Form property frmMain.HelpContextID was not upgraded.</Issue>
+            <Issue
+                Type = "Design"
+                Number = "2065"
+                ObjectName = "txtName"
+                ObjectType = "TextBox"
+                PME = "MaxLength"
+            >TextBox property txtName.MaxLength has a new behavior.</Issue>
+        </Section>
+        <Section Name = "chkDisableChecking_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "2020"
+                ObjectName = "tmrRefresh"
+                ObjectType = "Timer"
+                PME = "Interval"
+            >Timer property tmrRefresh.Interval cannot have a value of 0.</Issue>
+        </Section>
+        <Section Name = "Form_Activate" >
+            <Issue
+                Type = "Runtime"
+                Number = "2065"
+                ObjectName = "frmMain"
+                ObjectType = "Form"
+                PME = "Activate"
+            >Form event frmMain.Activate has a new behavior.</Issue>
+        </Section>
+        <Section Name = "Form_Resize" >
+            <Issue
+                Type = "Compile"
+                Number = "2069"
+                ObjectName = "App"
+                ObjectType = "App"
+                PME = "TaskVisible"
+            >App property App.TaskVisible was not upgraded.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2069"
+                ObjectName = "App"
+                ObjectType = "App"
+                PME = "TaskVisible"
+            >App property App.TaskVisible was not upgraded.</Issue>
+        </Section>
+        <Section Name = "mnuSTRestore_Click" >
+            <Issue
+                Type = "Compile"
+                Number = "2069"
+                ObjectName = "App"
+                ObjectType = "App"
+                PME = "TaskVisible"
+            >App property App.TaskVisible was not upgraded.</Issue>
+        </Section>
+        <Section Name = "picSystemTray_MouseMove" >
+            <Issue
+                Type = "Compile"
+                Number = "2064"
+                ObjectName = "frmMain"
+                ObjectType = "Form"
+                PME = "PopupMenu"
+            >Form method frmMain.PopupMenu was not upgraded.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2064"
+                ObjectName = "frmMain"
+                ObjectType = "Form"
+                PME = "PopupMenu"
+            >Form method frmMain.PopupMenu was not upgraded.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "2069"
+                ObjectName = "App"
+                ObjectType = "App"
+                PME = "TaskVisible"
+            >App property App.TaskVisible was not upgraded.</Issue>
+        </Section>
+        <Section Name = "Form_Unload" >
+            <Issue
+                Type = "Runtime"
+                Number = "2065"
+                ObjectName = "frmMain"
+                ObjectType = "Form"
+                PME = "Unload"
+            >Form event frmMain.Unload has a new behavior.</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "C:\DAN\ns105\modNickSpoof.bas"
+        NewPath = "C:\DAN\ns105\NickSpoofer.NET\modNickSpoof.vb"
+        FileType = "Module"
+        Upgraded = "True"
+    >
+        <Section Name = "WriteProcessMemory" >
+            <Issue
+                Type = "Compile"
+                Number = "1016"
+            >Declaring a parameter 'As Any' is not supported.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "1016"
+            >Declaring a parameter 'As Any' is not supported.</Issue>
+        </Section>
+        <Section Name = "ReadProcessMemory" >
+            <Issue
+                Type = "Compile"
+                Number = "1016"
+            >Declaring a parameter 'As Any' is not supported.</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "1016"
+            >Declaring a parameter 'As Any' is not supported.</Issue>
+        </Section>
+        <Section Name = "GetVersionExA" >
+            <Issue
+                Type = "Runtime"
+                Number = "1050"
+            >Structure OSVERSIONINFO may require marshalling attributes to be passed as an argument in this Declare statement.</Issue>
+        </Section>
+        <Section Name = "ChangeNick" >
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object parse_Renamed.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object parse_Renamed.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+                PME = "Mid$"
+            >Couldn't resolve default property of object parse_Renamed.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+                PME = "Mid$"
+            >Couldn't resolve default property of object parse_Renamed.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object parse_Renamed.</Issue>
+            <Issue
+                Type = "Runtime"
+                Number = "1037"
+            >Couldn't resolve default property of object parse_Renamed.</Issue>
+        </Section>
+    </File>
+    <File
+        OldPath = "D:\Program Files\Microsoft Visual Studio\VB98\Officeize.bas"
+        NewPath = "C:\DAN\ns105\NickSpoofer.NET\Officeize.vb"
+        FileType = "Module"
+        Upgraded = "True"
+    >
+        <Section Name = "Shell_NotifyIcon" >
+            <Issue
+                Type = "Runtime"
+                Number = "1050"
+            >Structure NOTIFYICONDATA may require marshalling attributes to be passed as an argument in this Declare statement.</Issue>
+        </Section>
+    </File>
+</UpgradeLog>
+

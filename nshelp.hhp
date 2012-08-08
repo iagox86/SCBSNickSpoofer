@@ -1,0 +1,15 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=nshelp.chm
+Contents file=Table of Contents.hhc
+Default Font=Tahoma,8,0
+Display compile progress=No
+Index file=Index.hhk
+Language=0x409 English (United States)
+Title=Yoshi's Battle.Net Nick Spoofer 1.05b
+
+
+[INFOTYPES]
+Category:Test Category
+CategoryDesc: 
+

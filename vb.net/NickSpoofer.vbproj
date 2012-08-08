@@ -1,0 +1,82 @@
+<VisualStudioProject>
+    <VisualBasic>
+        <Build>
+            <Settings
+                AssemblyName = "NickSpoofer"
+                OutputType = "WinExe"
+                StartupObject = "NickSpoofer.frmMain"
+                AssemblyMajorVersion = "1"
+                AssemblyMinorVersion = "5"
+                AssemblyRevisionNumber = "0"
+                GenerateRevisionNumber = "False"
+                AssemblyCompanyName = "www.scbackstab.com"
+                ApplicationIcon = "NickSpoofer.ico"
+            >
+                <Config
+                    Name = "Debug"
+                    DebugSymbols = "True"
+                    DefineDebug = "True"
+                    DefineTrace = "True"
+                    OutputPath = ".\bin\Debug\"
+                    DefineConstants = "Win32 = True"
+                />
+                <Config
+                    Name = "Release"
+                    DebugSymbols = "False"
+                    DefineDebug = "False"
+                    DefineTrace = "False"
+                    OutputPath = ".\bin\Release\"
+                    DefineConstants = "Win32 = True"
+                />
+            </Settings>
+            <References>
+                <Reference Name = "System" />
+                <Reference Name = "System.Drawing" />
+                <Reference Name = "System.WinForms" />
+                <Reference Name = "System.WinForms.Design" />
+                <Reference Name = "System.Data" />
+                <Reference Name = "System.Web.Services" />
+                <Reference Name = "System.Configuration" />
+                <Reference Name = "System.Diagnostics" />
+                <Reference Name = "Microsoft.Win32.Interop" />
+                <Reference Name = "Microsoft.VisualBasic.Compatibility" />
+                <Reference Name = "System.XML.Serialization" />
+                <Reference Name = "stdole" />
+                <Reference Name = "MSComctlLib" />
+                <Reference Name = "AxMSComctlLib" />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "Microsoft.VisualBasic.Compatibility" />
+                <Import Namespace = "System" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "modNickSpoof.vb"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmMain.vb"
+                    BuildAction = "Compile"
+                    SubType = "Form"
+                />
+                <File
+                    RelPath = "frmMain.resX"
+                    DependentUpon = "frmMain.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "NickSpoofer.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "_UpgradeReport.htm"
+                    BuildAction = "None"
+                    SubType = "Preview"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>

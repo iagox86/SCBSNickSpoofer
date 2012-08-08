@@ -1,0 +1,194 @@
+<MigrationLog>
+    <Settings>
+        <Setting
+            Name = "LogFile"
+            Value = "NickSpoofer.log"
+        />
+        <Setting
+            Name = "GenerateInterfacesForClasses"
+            Value = "FALSE"
+        />
+        <Setting
+            Name = "TimeMark"
+            Value = "FALSE"
+        />
+        <Setting
+            Name = "ADOPlus"
+            Value = "FALSE"
+        />
+        <Setting
+            Name = "NativeArrays"
+            Value = "FALSE"
+        />
+        <Setting
+            Name = "ProjectName"
+            Value = "NickSpoofer"
+        />
+        <Setting
+            Name = "OutputDir"
+            Value = "C:\DAN\ns105\VB.NET"
+        />
+        <Setting
+            Name = "ProjectPath"
+            Value = "C:\DAN\ns105\NickSpoofer.vbp"
+        />
+        <Setting
+            Name = "MigrateProjectTo"
+            Value = "WinExe"
+        />
+    </Settings>
+    <File
+        OldPath = "C:\DAN\Officeize.bas"
+        NewPath = "C:\DAN\ns105\VB.NET\Officeize.vb"
+        FileType = "Module"
+    >
+        <Issue
+            Type = "Compile"
+            Number = "6"
+        >General error accessing file &quot;C:\DAN\ns105\..\Officeize.bas&quot;</Issue>
+    </File>
+    <File
+        OldPath = "C:\DAN\ns105\frmMain.frm"
+        NewPath = "C:\DAN\ns105\VB.NET\frmMain.vb"
+        FileType = "Form"
+    >
+        <Section Name = "(Layout)" >
+            <Issue
+                Type = "Compile"
+                Number = "9017"
+                ObjectName = "frmMain"
+                ObjectType = "VB.Form"
+            >Property HelpContextID not supported in Windows Forms</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "9017"
+                ObjectName = "frmColors"
+                ObjectType = "VB.Frame"
+            >Property Frame BorderStyle not supported in Windows Forms</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "9017"
+                ObjectName = "frmOptions"
+                ObjectType = "VB.Frame"
+            >Property Frame BorderStyle not supported in Windows Forms</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "9017"
+                ObjectName = "frmModify"
+                ObjectType = "VB.Frame"
+            >Property Frame BorderStyle not supported in Windows Forms</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "9017"
+                ObjectName = "frmStatus"
+                ObjectType = "VB.Frame"
+            >Property Frame BorderStyle not supported in Windows Forms</Issue>
+        </Section>
+        <Section Name = "GetAppSettings" >
+            <Issue
+                Type = "Runtime"
+                Number = "1036"
+            >A boolean is being converted to a numeric type. The numeric type of True has changed from -1 in VB6 to 1 in VB7.</Issue>
+        </Section>
+        <Section Name = "chkDisableChecking_Click" >
+            <Issue
+                Type = "Runtime"
+                Number = "2020"
+            >Setting Interval to 0 will not disable the timer, instead the value will default to 1.  Use Timer.Enable to disable/enable a timer</Issue>
+        </Section>
+        <Section Name = "cmbColors_Click" >
+            <Issue
+                Type = "Compile"
+                Number = "9013"
+            >Found invalid type [&amp;string] for function [&amp;id &quot;Left&quot;]</Issue>
+        </Section>
+        <Section Name = "Form_Load" >
+            <Issue
+                Type = "Compile"
+                Number = "9013"
+            >Found invalid type [&amp;variant] for function [&amp;id &quot;AddOfficeBorder&quot;]</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "9026"
+                Code = "[&amp;id &quot;AddOfficeBorder&quot;]"
+            >Types do not match arguments in function [&amp;id &quot;AddOfficeBorder&quot;]</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "9013"
+            >Found invalid type [&amp;variant] for function [&amp;id &quot;AddOfficeBorder&quot;]</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "9026"
+                Code = "[&amp;id &quot;AddOfficeBorder&quot;]"
+            >Types do not match arguments in function [&amp;id &quot;AddOfficeBorder&quot;]</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "9013"
+            >Found invalid type [&amp;variant] for function [&amp;id &quot;AddOfficeBorder&quot;]</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "9026"
+                Code = "[&amp;id &quot;AddOfficeBorder&quot;]"
+            >Types do not match arguments in function [&amp;id &quot;AddOfficeBorder&quot;]</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "9013"
+            >Found invalid type [&amp;variant] for function [&amp;id &quot;AddOfficeBorder&quot;]</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "9026"
+                Code = "[&amp;id &quot;AddOfficeBorder&quot;]"
+            >Types do not match arguments in function [&amp;id &quot;AddOfficeBorder&quot;]</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "9013"
+            >Found invalid type [&amp;variant] for function [&amp;id &quot;AddOfficeBorder&quot;]</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "9026"
+                Code = "[&amp;id &quot;AddOfficeBorder&quot;]"
+            >Types do not match arguments in function [&amp;id &quot;AddOfficeBorder&quot;]</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "9013"
+            >Found invalid type [&amp;variant] for function [&amp;id &quot;AddOfficeBorder&quot;]</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "9026"
+                Code = "[&amp;id &quot;AddOfficeBorder&quot;]"
+            >Types do not match arguments in function [&amp;id &quot;AddOfficeBorder&quot;]</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "9013"
+            >Found invalid type [&amp;variant] for function [&amp;id &quot;AddOfficeBorder&quot;]</Issue>
+            <Issue
+                Type = "Compile"
+                Number = "9026"
+                Code = "[&amp;id &quot;AddOfficeBorder&quot;]"
+            >Types do not match arguments in function [&amp;id &quot;AddOfficeBorder&quot;]</Issue>
+        </Section>
+    </File>
+    <Issue
+        Type = "Global Warning"
+        Number = "2017"
+    >It is possible programmatically to set the Text property to a length greater than MaxLength, but not in VB6.</Issue>
+    <File
+        OldPath = "C:\DAN\ns105\modNickSpoof.bas"
+        NewPath = "C:\DAN\ns105\VB.NET\modNickSpoof.vb"
+        FileType = "Module"
+    >
+        <Section Name = "ReadNick" >
+            <Issue
+                Type = "Runtime"
+                Number = "1036"
+            >A boolean is being converted to a numeric type. The numeric type of True has changed from -1 in VB6 to 1 in VB7.</Issue>
+        </Section>
+        <Section Name = "ChangeNick" >
+            <Issue
+                Type = "Runtime"
+                Number = "1036"
+            >A boolean is being converted to a numeric type. The numeric type of True has changed from -1 in VB6 to 1 in VB7.</Issue>
+        </Section>
+    </File>
+</MigrationLog>
+
